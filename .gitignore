@@ -1,0 +1,25 @@
+# Jupyter Notebook specific
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE specific
+.vscode/
+.idea/
+
+# Project specific
+Cheatsheets/
