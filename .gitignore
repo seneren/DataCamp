@@ -24,3 +24,6 @@ ENV/
 # Project specific
 Cheatsheets/
 Tutorial\ Files\ from\ Coursera/
+
+# Large files
+Databases/World-Development-Indicators/WDICSV.csv
