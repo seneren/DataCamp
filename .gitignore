@@ -1,6 +1,8 @@
 # Jupyter Notebook specific
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+*.ipynb_metadata
+*.so
 
 # Python specific
 __pycache__/
@@ -11,15 +13,24 @@ __pycache__/
 .DS_Store
 .AppleDouble
 .LSOverride
+.DS_Store?
+._*
 
-# Virtual environment
-venv/
+# Environment
+.env
+.venv
 env/
+venv/
 ENV/
+
+# OpenAI API Keys
+.env*
 
 # IDE specific
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Project specific
 Cheatsheets/
